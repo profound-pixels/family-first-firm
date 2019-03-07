@@ -1,0 +1,92 @@
+//
+// Component: Text
+//
+// ========================================================================
+
+
+// Variables - change/add custom text colors here(reference theme/variables for var names)
+// ========================================================================
+
+$text-lead-font-size:                            $global-large-font-size !default;
+$text-lead-line-height:                          1.5 !default;
+$text-lead-color:                                $global-emphasis-color !default;
+
+$text-meta-font-size:                            $global-small-font-size !default;
+$text-meta-line-height:                          1.4 !default;
+$text-meta-color:                                $global-muted-color !default;
+
+$text-small-font-size:                           $global-small-font-size !default;
+$text-small-line-height:                         1.5 !default;
+
+$text-large-font-size:                           $global-large-font-size !default;
+$text-large-line-height:                         1.5 !default;
+
+$text-bold-font-weight:                          bolder !default;
+
+$text-muted-color:                               $global-muted-color !default;
+$text-emphasis-color:                            $global-emphasis-color !default;
+$text-primary-color:                             $global-primary-background !default;
+$text-success-color:                             $global-success-background !default;
+$text-warning-color:                             $global-warning-background !default;
+$text-danger-color:                              $global-danger-background !default;
+
+$text-background-color:                          $global-primary-background !default;
+
+//
+// New
+//
+
+$text-meta-link-color:                           $text-meta-color !default;
+$text-meta-link-hover-color:                     $global-color !default;
+
+
+// Style modifiers - here custom classes can be added for specific text colors/styles
+// ========================================================================
+
+
+/* Color modifiers
+ ========================================================================== */
+
+.uk-text-muted { color: $text-muted-color !important; }
+.uk-text-emphasis { color: $text-emphasis-color !important; }
+.uk-text-primary { color: $text-primary-color !important; }
+.uk-text-success { color: $text-success-color !important; }
+.uk-text-warning { color: $text-warning-color !important; }
+.uk-text-danger { color: $text-danger-color !important; }
+
+// Add custom color classes here
+
+.text-blue {
+    color: $text-blue;
+}
+
+// @mixin hook-text-lead(){}
+
+
+
+
+// Size modifiers
+// ========================================================================
+
+// @mixin hook-text-small(){}
+
+// @mixin hook-text-large(){}
+
+
+// Background modifier
+// ========================================================================
+
+// @mixin hook-text-background(){}
+
+
+// Miscellaneous
+// ========================================================================
+
+// @mixin hook-text-misc(){}
+
+
+// Inverse
+// ========================================================================
+
+// @mixin hook-inverse-text-lead(){}
+// @mixin hook-inverse-text-meta(){}

@@ -1,0 +1,170 @@
+//
+// Component: Base
+//
+// ========================================================================
+
+
+// Variables
+// ========================================================================
+
+//
+// New
+//
+
+$base-code-padding-horizontal:                   6px;
+$base-code-padding-vertical:                     2px;
+$base-code-background:                           $global-muted-background;
+
+$base-blockquote-color:                          $global-emphasis-color;
+
+$base-blockquote-footer-color:                   $global-color;
+
+$base-pre-padding:                               10px;
+$base-pre-background:                            $global-background;
+$base-pre-border-width:                          $global-border-width;
+$base-pre-border:                                $global-border;
+$base-pre-border-radius:                         3px;
+
+
+// Body
+// ========================================================================
+html {
+    /* 1 */
+    font-family: $global-font-family;
+    font-size: $global-font-size;
+    font-weight: $base-body-font-weight;
+    line-height: $global-line-height;
+    /* 2 */
+    -webkit-text-size-adjust: 100%;
+    /* 3 */
+    background: $base-body-background;
+    color: $base-body-color;
+    @if(mixin-exists(hook-base-body)) {@include hook-base-body();}
+}
+
+// @mixin hook-base-body(){}
+
+
+// Links
+// ========================================================================
+
+// @mixin hook-base-link(){}
+
+// @mixin hook-base-link-hover(){}
+
+
+// Text-level semantics
+// ========================================================================
+
+
+
+
+// Headings
+// ========================================================================
+
+.uk-h1 {
+    font-family: $secondary-font-family;
+    font-size: $secondary-xxlarge-font-size;
+
+    @media (min-width: $breakpoint-medium) and (max-width: $breakpoint-medium-max) {
+        font-size: $secondary-xlarge-font-size;
+    }
+
+    @media (max-width: $breakpoint-small-max) {
+        font-size: $secondary-large-font-size;
+    }
+}
+
+.uk-h2 {
+    font-family: $secondary-font-family;
+    font-size: $secondary-medium-font-size;
+}
+
+.uk-h3 {
+    font-family: $tertiary-font-family;
+    font-size: $tertiary-large-font-size;
+
+    @media (max-width: $breakpoint-small-max) {
+        font-size: $tertiary-medium-font-size;
+    }
+}
+
+.uk-h4 {
+    font-family: $tertiary-font-family;
+    font-size: $tertiary-small-font-size;
+}
+
+.uk-h5 {
+    font-family: $secondary-font-family;
+    font-size: $secondary-small-font-size;
+}
+
+.uk-h6 {
+    // custom styles for heading classes go here
+}
+
+// @mixin hook-base-heading(){}
+
+// @mixin hook-base-h1(){}
+
+// @mixin hook-base-h2(){}
+
+// @mixin hook-base-h3(){}
+
+// @mixin hook-base-h4(){}
+
+// @mixin hook-base-h5(){}
+
+// @mixin hook-base-h6(){}
+
+
+// Horizontal rules
+// ========================================================================
+
+// @mixin hook-base-hr(){}
+
+
+// Blockquotes
+// ========================================================================
+
+
+
+
+
+
+// Preformatted text
+// ========================================================================
+
+
+
+
+// Miscellaneous
+// ========================================================================
+
+// @mixin hook-base-misc(){}
+
+
+// Inverse
+// ========================================================================
+
+$inverse-base-blockquote-color:                 $inverse-global-emphasis-color;
+$inverse-base-blockquote-footer-color:          $inverse-global-color;
+
+// @mixin hook-inverse-base-link(){}
+// @mixin hook-inverse-base-link-hover(){}
+
+
+
+// @mixin hook-inverse-base-heading(){}
+
+// @mixin hook-inverse-base-h1(){}
+// @mixin hook-inverse-base-h2(){}
+// @mixin hook-inverse-base-h3(){}
+// @mixin hook-inverse-base-h4(){}
+// @mixin hook-inverse-base-h5(){}
+// @mixin hook-inverse-base-h6(){}
+
+
+
+
+// @mixin hook-inverse-base-hr(){}

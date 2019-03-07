@@ -1,0 +1,156 @@
+//
+// Component: Variables
+//
+// ========================================================================
+
+
+// Global variables
+// ========================================================================
+
+// Breakpoints
+// ========================================================================
+
+// Phone Portrait:   Galaxy (360x640), iPhone 6 (375x667), iPhone 6+ (414x736)
+// Phone Landscape:  Galaxy (640x360), iPhone 6 (667x375), iPhone 6+ (736x414)
+// Tablet Portrait:  iPad (768x1024), Galaxy Tab (800x1280),
+// Tablet Landscape: iPad (1024x768), iPad Pro (1024x1366),
+// Desktop:          Galaxy Tab (1280x800), iPad Pro (1366x1024)
+
+$breakpoint-small:                              640px !default;  // Phone landscape
+$breakpoint-medium:                             960px !default;  // Tablet Landscape
+$breakpoint-large:                              1200px !default; // Desktop
+$breakpoint-xlarge:                             1600px !default; // Large Screens
+
+$breakpoint-xsmall-max:                         ($breakpoint-small - 1) !default;
+$breakpoint-small-max:                          ($breakpoint-medium - 1) !default;
+$breakpoint-medium-max:                         ($breakpoint-large - 1) !default;
+$breakpoint-large-max:                          ($breakpoint-xlarge - 1) !default;
+
+//
+// Typography
+//
+
+$global-font-family:                             "HelveticaNeueW01-55Roma", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$global-font-size:                               16px;
+$global-line-height:                             30px;      // 24px
+
+$global-xxlarge-font-size:                       2.625rem !default; // 42px
+$global-xlarge-font-size:                        2rem !default;     // 32px
+$global-large-font-size:                         1.5rem !default;   // 24px
+$global-medium-font-size:                        1.25rem !default;  // 20px
+$global-small-font-size:                         0.875rem !default; // 14px
+
+$secondary-font-family:                          "Proxima N W01 Bold", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$secondary-font-size:                               16px !default;
+$secondary-line-height:                             1.5 !default;      // 24px
+
+$secondary-xxlarge-font-size:                       3rem !default; // 48px
+$secondary-xlarge-font-size:                        2.8125rem !default;     // 45px
+$secondary-large-font-size:                         2rem !default;   // 32px
+$secondary-medium-font-size:                        1.3125rem !default;  // 21px
+$secondary-small-font-size:                         0.75rem !default; // 12px
+
+$tertiary-font-family:                            "Century Schoolbook W01", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$tertiary-font-size:                               16px !default;
+$tertiary-line-height:                             1.5 !default;      // 24px
+
+$tertiary-xxlarge-font-size:                       2.625rem !default; // 42px
+$tertiary-xlarge-font-size:                        2rem !default;     // 32px
+$tertiary-large-font-size:                         1.5rem !default;   // 24px
+$tertiary-medium-font-size:                        1.3125rem !default;  // 21px
+$tertiary-small-font-size:                         0.9375rem !default; // 15px
+
+//
+// Colors
+// Add custom colors here (ex. $dark-red: ###)
+
+// Primary
+$light-gold: #ECBA84;
+$newsletter-gold: #C9A884;
+$main-gold: #BB9369;
+$footer-gold: #82674A;
+
+// Secondary
+$element-blue: #ADD2DD;
+$text-blue: #ADD2DE;
+
+// Grayscale
+$background-gray: #F5F5F5;
+$border-light-gray: #D7D7D7;
+$text-light-gray: #898989;
+$text-content-gray: #585453;
+$border-dark-gray: #343434;
+$heading-dark-gray: #242222;
+
+// Background
+
+// $global-color = default text color
+$global-color:                                   #666 !default;
+$global-emphasis-color:                          #333 !default;
+$global-muted-color:                             #999 !default;
+
+$global-link-color:                              #1e87f0 !default;
+$global-link-hover-color:                        #0f6ecd !default;
+
+$global-inverse-color:                           #fff !default;
+
+//
+// Backgrounds
+//
+
+$global-background:                              #fff !default;
+
+$global-muted-background:                        #f8f8f8 !default;
+$global-primary-background:                      #1e87f0 !default;
+$global-secondary-background:                    #222 !default;
+
+$global-success-background:                      #32d296 !default;
+$global-warning-background:                      #faa05a !default;
+$global-danger-background:                       #f0506e !default;
+
+//
+// Borders
+//
+
+$global-border-width:                            2px;
+$global-border:                                  #e5e5e5 !default;
+
+//
+// Box-Shadows
+//
+
+$global-small-box-shadow:                        0 2px 8px rgba(0,0,0,0.08) !default;
+$global-medium-box-shadow:                       0 5px 15px rgba(0,0,0,0.08) !default;
+$global-large-box-shadow:                        0 14px 25px rgba(0,0,0,0.16) !default;
+$global-xlarge-box-shadow:                       0 28px 50px rgba(0,0,0,0.16) !default;
+
+//
+// Spacings
+//
+
+// Used in margin, section, list
+$global-margin:                                  20px !default;
+$global-small-margin:                            10px !default;
+$global-medium-margin:                           40px !default;
+$global-large-margin:                            70px !default;
+$global-xlarge-margin:                           140px !default;
+
+// Used in grid, column, container, align, card, padding
+$global-gutter:                                  30px !default;
+$global-small-gutter:                            15px !default;
+$global-medium-gutter:                           40px !default;
+$global-large-gutter:                            70px !default;
+
+//
+// Controls
+//
+
+$global-control-height:                          40px !default;
+$global-control-small-height:                    30px !default;
+$global-control-large-height:                    55px !default;
+
+//
+// Z-index
+//
+
+$global-z-index:                                 1000 !default;
