@@ -42,7 +42,9 @@ $text-meta-link-hover-color:                     $global-color !default;
 
 // Style modifiers - here custom classes can be added for specific text colors/styles
 // ========================================================================
-
+.gold-text {
+    color: $main-gold;
+}
 
 /* Color modifiers
  ========================================================================== */

@@ -41,6 +41,36 @@ $card-secondary-hover-box-shadow:               $global-large-box-shadow !defaul
 // Component
 // ========================================================================
 
+.pp-card-small-overlay, .pp-card-small-overlay.uk-card-default {
+    background: none;
+
+    .pp-img-container {
+        overflow: hidden;
+
+        img {
+            margin-left: 1.5rem;
+        }
+    }
+
+    .uk-overlay {
+        background-color: #fff;
+        padding: 1.5rem 2.5rem;
+
+        .pp-overlay-text {
+            line-height: 36px;
+        }
+    }
+
+    .pp-sub-title {
+        font-size: $secondary-small-font-size;
+        color: $heading-dark-gray;
+        font-weight: 700;
+    }
+
+    .uk-card-body {
+        background-color: #fff;
+    }
+}
 
 
 
@@ -122,4 +152,3 @@ $card-secondary-hover-box-shadow:               $global-large-box-shadow !defaul
 
 // Miscellaneous
 // ========================================================================
-

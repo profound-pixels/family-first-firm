@@ -13,9 +13,21 @@
 
 // @mixin hook-panel-scrollable(){}
 
+.box-shadow-none {
+    box-shadow: none;
+}
 
-// Box-shadow bottom
+// Box-shadow center
 // ========================================================================
+.box-shadow-center {
+    box-shadow: $global-box-shadow-center;
+}
+
+// Box-shadow left
+// ========================================================================
+.box-shadow-left {
+    box-shadow: $global-box-shadow-left;
+}
 
 // @mixin hook-box-shadow-bottom(){}
 
