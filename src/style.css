@@ -9862,23 +9862,28 @@ html {
     .uk-button.uk-button-default:hover {
       border: 2px solid #343434; }
 
-.pp-card-small-overlay, .pp-card-small-overlay.uk-card-default {
+.pp-card-overlay {
   background: none; }
-  .pp-card-small-overlay .pp-img-container, .pp-card-small-overlay.uk-card-default .pp-img-container {
+  .pp-card-overlay .pp-img-container {
     overflow: hidden; }
-    .pp-card-small-overlay .pp-img-container img, .pp-card-small-overlay.uk-card-default .pp-img-container img {
+    .pp-card-overlay .pp-img-container img {
       margin-left: 1.5rem; }
-  .pp-card-small-overlay .uk-overlay, .pp-card-small-overlay.uk-card-default .uk-overlay {
+  .pp-card-overlay .uk-overlay {
     background-color: #fff;
     padding: 1.5rem 2.5rem; }
-    .pp-card-small-overlay .uk-overlay .pp-overlay-text, .pp-card-small-overlay.uk-card-default .uk-overlay .pp-overlay-text {
+    .pp-card-overlay .uk-overlay .pp-overlay-text {
       line-height: 36px; }
-  .pp-card-small-overlay .pp-sub-title, .pp-card-small-overlay.uk-card-default .pp-sub-title {
+  .pp-card-overlay .pp-sub-title {
     font-size: 0.75rem;
     color: #242222;
     font-weight: 700; }
-  .pp-card-small-overlay .uk-card-body, .pp-card-small-overlay.uk-card-default .uk-card-body {
+  .pp-card-overlay .uk-card-body {
     background-color: #fff; }
+    .pp-card-overlay .uk-card-body .pp-card-negative-margin {
+      margin-top: -120px;
+      background-color: #fff; }
+    .pp-card-overlay .uk-card-body .pp-card-partial-width {
+      width: 75%; }
 
 .gold-text {
   color: #BB9369; }
