@@ -9854,6 +9854,8 @@ html {
 .uk-p-alternate {
   font-family: "Century Schoolbook W01", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.5rem; }
+  .uk-p-alternate.uk-p-alternate-small {
+    font-size: 0.9375rem; }
 
 .uk-button {
   font-family: "Proxima N W01 Bold", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
@@ -9885,8 +9887,26 @@ html {
     .pp-card-overlay .uk-card-body .pp-card-partial-width {
       width: 75%; }
 
+.pp-cards-alternating-align .uk-overlay {
+  background-color: #fff; }
+.pp-cards-alternating-align .pp-overlay-align:nth-child(odd) .uk-overlay {
+  margin-left: 84px;
+  text-align: right; }
+.pp-cards-alternating-align .pp-overlay-align:nth-child(even) .uk-overlay {
+  margin-right: 84px;
+  text-align: left; }
+
 .gold-text {
   color: #BB9369; }
+
+.white-text {
+  color: #fff; }
+
+.text-blue {
+  color: #ADD2DE; }
+
+.text-light-gray {
+  color: #898989; }
 
 /* Color modifiers
  ========================================================================== */
@@ -9907,9 +9927,6 @@ html {
 
 .uk-text-danger {
   color: #f0506e !important; }
-
-.text-blue {
-  color: #ADD2DE; }
 
 .box-shadow-none {
   box-shadow: none; }

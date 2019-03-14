@@ -46,6 +46,18 @@ $text-meta-link-hover-color:                     $global-color !default;
     color: $main-gold;
 }
 
+.white-text {
+    color: #fff;
+}
+
+.text-blue {
+    color: $text-blue;
+}
+
+.text-light-gray {
+    color: $text-light-gray;
+}
+
 /* Color modifiers
  ========================================================================== */
 
@@ -56,11 +68,6 @@ $text-meta-link-hover-color:                     $global-color !default;
 .uk-text-warning { color: $text-warning-color !important; }
 .uk-text-danger { color: $text-danger-color !important; }
 
-// Add custom color classes here
-
-.text-blue {
-    color: $text-blue;
-}
 
 // @mixin hook-text-lead(){}
 

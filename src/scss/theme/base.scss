@@ -106,6 +106,10 @@ html {
 .uk-p-alternate {
     font-family: $tertiary-font-family;
     font-size: $tertiary-large-font-size;
+
+    &.uk-p-alternate-small {
+        font-size: $tertiary-small-font-size;
+    }
 }
 
 // @mixin hook-base-heading(){}

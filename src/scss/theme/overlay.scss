@@ -10,6 +10,25 @@
 
 // Component
 // ========================================================================
+.pp-cards-alternating-align {
+    .uk-overlay {
+        background-color: #fff;
+    }
+
+    .pp-overlay-align:nth-child(odd) {
+        .uk-overlay {
+            margin-left: 84px;
+            text-align: right;
+        }
+    }
+
+    .pp-overlay-align:nth-child(even) {
+        .uk-overlay {
+            margin-right: 84px;
+            text-align: left;
+        }
+    }
+}
 
 // @mixin hook-overlay(){}
 
