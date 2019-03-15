@@ -84,6 +84,10 @@ html {
     font-family: $tertiary-font-family;
     font-size: $tertiary-large-font-size;
 
+    &.uk-h3-medium {
+        font-size: $tertiary-medium-font-size;
+    }
+
     @media (max-width: $breakpoint-small-max) {
         font-size: $tertiary-medium-font-size;
     }

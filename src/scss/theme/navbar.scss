@@ -38,6 +38,14 @@ $navbar-dropdown-grid-divider-border:            $navbar-dropdown-nav-divider-bo
 
 // Container
 // ========================================================================
+.uk-navbar-container:not(.uk-navbar-transparent) {
+    background-color: $heading-dark-gray;
+
+    .uk-navbar-nav > li > a {
+        color: $main-gold;
+        font-size: $tertiary-small-font-size;
+    }
+}
 
 // @mixin hook-navbar-container(){}
 

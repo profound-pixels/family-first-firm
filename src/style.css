@@ -9839,6 +9839,8 @@ html {
 .uk-h3 {
   font-family: "Century Schoolbook W01", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.5rem; }
+  .uk-h3.uk-h3-medium {
+    font-size: 1.3125rem; }
   @media (max-width: 959px) {
     .uk-h3 {
       font-size: 1.3125rem; } }
@@ -9864,6 +9866,13 @@ html {
     .uk-button.uk-button-default:hover {
       border: 2px solid #343434; }
 
+@media (min-width: 640px) {
+  .pp-card-overlap-container .uk-first-column {
+    width: 55%; }
+  .pp-card-overlap-container .pp-card-overlap-right {
+    margin-left: -10%;
+    z-index: 99;
+    background-color: #fff; } }
 .pp-card-overlay {
   background: none; }
   .pp-card-overlay .pp-img-container {
@@ -9895,6 +9904,12 @@ html {
 .pp-cards-alternating-align .pp-overlay-align:nth-child(even) .uk-overlay {
   margin-right: 84px;
   text-align: left; }
+
+.uk-navbar-container:not(.uk-navbar-transparent) {
+  background-color: #242222; }
+  .uk-navbar-container:not(.uk-navbar-transparent) .uk-navbar-nav > li > a {
+    color: #BB9369;
+    font-size: 0.9375rem; }
 
 .gold-text {
   color: #BB9369; }

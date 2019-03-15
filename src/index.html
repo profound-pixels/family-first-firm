@@ -12,14 +12,40 @@
 <!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->
 </head>
 <body>
+    <div uk-slideshow>
+        <ul class="uk-slideshow-items uk-slideshow-items" uk-height-viewport>
+            <li>
+                <img src="https://getuikit.com/docs/images/photo.jpg" alt="" uk-cover>
+                <div class="uk-position-top-right uk-position-small">
+                    <h3 class="uk-h3 white-text uk-h3-medium">Phone (407) 574-8125</h3>
+                </div>
+                <div class="uk-position-center uk-position-small uk-text-center">
+                    <h1 class="uk-text-uppercase white-text uk-h1">Family First Firm</h1>
+                    <h3 class="uk-h3 gold-text uk-h3-medium">Protecting you, Your family, Your future</h3>
+                </div>
+                <div class="uk-position-bottom">
+                    <nav class="uk-navbar-container" uk-navbar>
+                        <div class="uk-navbar-center">
+                            <div>
+                                <ul class="uk-navbar-nav">
+                                    <li class="uk-active"><a href="#">Active</a></li>
+                                    <li><a href="#">Item</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </li>
+        </ul>
+    </div>
     <div class="uk-section">
         <div class="uk-container uk-container-medium">
-            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin box-shadow-none uk-flex-middle" uk-grid>
+            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin box-shadow-none uk-flex-middle pp-card-overlap-container" uk-grid>
                 <div class="uk-card-media-left uk-cover-container">
                     <img src="https://getuikit.com/docs/images/photo.jpg" alt="" uk-cover>
                     <canvas width="579" height="564"></canvas>
                 </div>
-                <div>
+                <div class="pp-card-overlap-right">
                     <div class="uk-card-body uk-card-large box-shadow-left">
                         <h1 class="uk-h1 uk-card-title uk-text-uppercase">Our Philosophy</h1>
                         <p class="gold-text uk-p-alternate">The philosophy at the Family First Firm has always been to provide compassionate, ethical, and top quality legal services to all our clients in Estate and Family law.</p>
@@ -132,12 +158,29 @@
     </div>
     <div class="uk-section">
         <div class="uk-container uk-container-medium">
-            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin box-shadow-none uk-flex-middle" uk-grid>
+            <div class="uk-grid" uk-grid>
+                <div class="uk-width-1-3@m">
+                    <h2 class="uk-h2 uk-margin-remove uk-text-uppercase">Hours</h2>
+                    <p class="gold-text uk-p-alternate pp-card-title">Monday - Friday 9AM - 5PM</p>
+                    <h2 class="uk-h2 uk-margin-remove uk-text-uppercase">Phone</h2>
+                    <p class="gold-text uk-p-alternate pp-card-title">(407) 574-8125</p>
+                    <h2 class="uk-h2 uk-margin-remove uk-text-uppercase">Address</h2>
+                    <p class="gold-text uk-p-alternate pp-card-title">1212 Mount Vernon Street</p>
+                    <p class="gold-text uk-p-alternate pp-card-title">Orlando, Florida</p>
+                    <p class="gold-text uk-p-alternate pp-card-title">32803</p>
+                    <a class="uk-button uk-button-default" href="#">Google Maps</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section">
+        <div class="uk-container uk-container-medium">
+            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin box-shadow-none uk-flex-middle pp-card-overlap-container" uk-grid>
                 <div class="uk-card-media-left uk-cover-container">
                     <img src="https://getuikit.com/docs/images/photo.jpg" alt="" uk-cover>
                     <canvas width="579" height="564"></canvas>
                 </div>
-                <div>
+                <div class="pp-card-overlap-right">
                     <div class="uk-card-body uk-card-large box-shadow-left">
                         <h1 class="uk-h1 uk-card-title uk-text-uppercase">JOIN OUR TEAM</h1>
                         <p class="gold-text uk-p-alternate">We’re in the market for friendly and driven professionals in our areas of legal practice. If you’d like to be part of our team fill out this application and email it back to us. </p>
