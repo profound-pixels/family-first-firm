@@ -58,6 +58,30 @@ $text-meta-link-hover-color:                     $global-color !default;
     color: $text-light-gray;
 }
 
+.pp-underline {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    &::after {
+        content: '';
+        display: block;
+        width: 100px;
+        height: 3px;
+        margin-top: 1.5rem;
+    }
+
+    &.pp-underline-white::after {
+        background-color: #fff;
+    }
+
+    &.pp-underline-dark::after {
+        background-color: $heading-dark-gray;
+    }
+}
+
 /* Color modifiers
  ========================================================================== */
 

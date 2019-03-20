@@ -9866,6 +9866,9 @@ html {
     .uk-button.uk-button-default:hover {
       border: 2px solid #343434; }
 
+.pp-grey-section {
+  background-color: #F5F5F5; }
+
 @media (min-width: 640px) {
   .pp-card-overlap-container .uk-first-column {
     width: 55%; }
@@ -9922,6 +9925,23 @@ html {
 
 .text-light-gray {
   color: #898989; }
+
+.pp-underline {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+  .pp-underline::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin-top: 1.5rem; }
+  .pp-underline.pp-underline-white::after {
+    background-color: #fff; }
+  .pp-underline.pp-underline-dark::after {
+    background-color: #242222; }
 
 /* Color modifiers
  ========================================================================== */
