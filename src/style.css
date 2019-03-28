@@ -9876,6 +9876,17 @@ html {
     margin-left: -10%;
     z-index: 99;
     background-color: #fff; } }
+.pp-card-overlap-container .pp-card-overlap-right .uk-card-body {
+  padding: 70px; }
+
+@media (max-width: 1199px) and (min-width: 640px) {
+  .pp-card-overlap-container {
+    text-align: center; }
+    .pp-card-overlap-container .uk-first-column {
+      width: 100%; }
+    .pp-card-overlap-container .pp-card-overlap-right {
+      margin: -24% auto 0;
+      width: 80%; } }
 .pp-card-overlay {
   background: none; }
   .pp-card-overlay .pp-img-container {
@@ -9913,6 +9924,9 @@ html {
   .uk-navbar-container:not(.uk-navbar-transparent) .uk-navbar-nav > li > a {
     color: #BB9369;
     font-size: 0.9375rem; }
+
+.pp-sticky-logo {
+  z-index: 1000; }
 
 .gold-text {
   color: #BB9369; }
