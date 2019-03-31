@@ -9932,6 +9932,11 @@ html {
 .pp-sticky-logo {
   z-index: 1000; }
 
+.pp-slidenav-group {
+  top: 0;
+  right: 0;
+  position: absolute; }
+
 .uk-dotnav > .uk-active > * {
   border: 5px solid #ADD2DD; }
 .uk-dotnav > * > * {

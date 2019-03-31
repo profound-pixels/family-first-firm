@@ -10,7 +10,11 @@
 
 // Component
 // ========================================================================
-
+.pp-slidenav-group {
+    top: 0;
+    right: 0;
+    position: absolute;
+}
 
 
 // @mixin hook-slidenav-hover(){}
