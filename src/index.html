@@ -12,7 +12,7 @@
 <!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->
 </head>
 <body>
-    <div uk-slideshow="animation: fade; autoplay: true" uk-scrollspy="cls:uk-animation-fade">
+    <div uk-slideshow="animation: fade; autoplay: true; pause-on-hover: false" uk-scrollspy="cls:uk-animation-fade">
         <ul class="uk-slideshow-items uk-slideshow-items" uk-height-viewport>
             <li>
                 <img src="./images/section-bgs/family-slide1.jpg" alt="" uk-cover>
@@ -80,8 +80,8 @@
     </div>
     <div class="uk-section uk-background-cover uk-section-large" style="background-image: url('./images/section-bgs/events-bg.jpg');">
         <div class="uk-container uk-container-medium">
-            <h1 class="uk-text-center uk-h1 uk-text-uppercase white-text pp-underline pp-underline-white uk-margin-large-bottom">Events</h1>
-            <div uk-slider="autoplay: true">
+            <h1 class="uk-text-center uk-h1 uk-text-uppercase white-text pp-underline pp-underline-white">Events</h1>
+            <div uk-slider="sets: true; autoplay: true; autoplay-interval: 4500; pause-on-hover: true">
                 <div class="uk-position-relative uk-visible-toggle" tabindex="-1">
                     <ul class="uk-slider-items uk-child-width-1-2@s uk-grid">
                         <li>
@@ -256,9 +256,9 @@
                     <h2 class="uk-h2 uk-margin-remove uk-text-uppercase">Phone</h2>
                     <p class="gold-text uk-p-alternate pp-card-title">(407) 574-8125</p>
                     <h2 class="uk-h2 uk-margin-remove uk-text-uppercase">Address</h2>
-                    <p class="gold-text uk-p-alternate pp-card-title">1212 Mount Vernon Street</p>
-                    <p class="gold-text uk-p-alternate pp-card-title">Orlando, Florida</p>
-                    <p class="gold-text uk-p-alternate pp-card-title">32803</p>
+                    <p class="gold-text uk-p-alternate pp-card-title">1212 Mount Vernon Street<br/>
+                    Orlando, Florida<br/>
+                    32803</p>
                     <a class="uk-button uk-button-default" href="#">Google Maps</a>
                 </div>
             </div>
