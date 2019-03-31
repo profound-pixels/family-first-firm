@@ -9822,6 +9822,10 @@ html {
   background: #fff;
   color: #666; }
 
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
 .uk-h1 {
   font-family: "Proxima N W01 Bold", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 3rem; }
