@@ -8,12 +8,14 @@
 // ========================================================================
 
 $dotnav-item-background:                              transparent !default;
+$dotnav-item-width:                              15px;
+$dotnav-item-height:                             15px;
 
 //
 // New
 //
 
-$dotnav-item-border-width:                            1px !default;
+$dotnav-item-border-width:                            0px !default;
 
 $dotnav-item-border:                                  rgba($global-color, 0.4) !default;
 $dotnav-item-hover-border:                            transparent !default;
@@ -23,7 +25,17 @@ $dotnav-item-active-border:                           transparent !default;
 
 // Component
 // ========================================================================
+.uk-dotnav {
+    > .uk-active > * {
+        border: 5px solid $element-blue;
+    }
 
+    > * > * {
+        width: $dotnav-item-width;
+        height: $dotnav-item-height;
+        background-color: white;
+    }
+}
 // @mixin hook-dotnav(){}
 
 
@@ -47,6 +59,3 @@ $dotnav-item-active-border:                           transparent !default;
 $inverse-dotnav-item-background:                      transparent !default;
 
 // @mixin hook-inverse-dotnav(){}
-
-
-
