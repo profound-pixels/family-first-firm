@@ -9928,6 +9928,13 @@ html {
 .pp-sticky-logo {
   z-index: 1000; }
 
+.uk-dotnav > .uk-active > * {
+  border: 5px solid #ADD2DD; }
+.uk-dotnav > * > * {
+  width: 15px;
+  height: 15px;
+  background-color: white; }
+
 .gold-text {
   color: #BB9369; }
 
