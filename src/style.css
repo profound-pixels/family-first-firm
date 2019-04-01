@@ -9964,7 +9964,8 @@ html {
 .uk-dotnav > * > * {
   width: 15px;
   height: 15px;
-  background-color: white; }
+  background-color: white;
+  border: none; }
 
 .gold-text {
   color: #BB9369; }

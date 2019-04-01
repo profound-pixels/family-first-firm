@@ -34,6 +34,7 @@ $dotnav-item-active-border:                           transparent !default;
         width: $dotnav-item-width;
         height: $dotnav-item-height;
         background-color: white;
+        border: none;
     }
 }
 // @mixin hook-dotnav(){}
