@@ -9916,12 +9916,17 @@ html {
 
 .pp-cards-alternating-align .uk-overlay {
   background-color: #fff; }
-.pp-cards-alternating-align .pp-overlay-align:nth-child(odd) .uk-overlay {
-  margin-left: 84px;
-  text-align: right; }
-.pp-cards-alternating-align .pp-overlay-align:nth-child(even) .uk-overlay {
+.pp-cards-alternating-align .pp-overlay-align .uk-overlay {
   margin-right: 84px;
   text-align: left; }
+@media (min-width: 640px) {
+  .pp-cards-alternating-align .pp-overlay-align:nth-child(odd) .uk-overlay {
+    margin-left: 84px;
+    margin-right: 0;
+    text-align: right; }
+  .pp-cards-alternating-align .pp-overlay-align:nth-child(even) .uk-overlay {
+    margin-right: 84px;
+    text-align: left; } }
 
 .uk-navbar-container:not(.uk-navbar-transparent) {
   background-color: #242222; }
@@ -9933,9 +9938,11 @@ html {
   z-index: 1000; }
 
 .pp-slidenav-group {
-  top: 80px;
+  top: 40px;
   right: 0;
   position: absolute; }
+  .pp-slidenav-group .uk-h1 {
+    display: inline; }
   .pp-slidenav-group a {
     background-color: #000;
     width: 36px;

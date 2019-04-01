@@ -11,9 +11,13 @@
 // Component
 // ========================================================================
 .pp-slidenav-group {
-    top: 80px;
+    top: 40px;
     right: 0;
     position: absolute;
+
+    .uk-h1 {
+        display: inline;
+    }
 
     a {
         background-color: #000;
