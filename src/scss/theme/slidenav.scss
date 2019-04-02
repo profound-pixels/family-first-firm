@@ -15,6 +15,10 @@
     right: 0;
     position: absolute;
 
+    @media (max-width: $breakpoint-small-max) {
+        top: 20px;
+    }
+
     .uk-h1 {
         display: inline;
     }

@@ -9941,6 +9941,9 @@ html {
   top: 40px;
   right: 0;
   position: absolute; }
+  @media (max-width: 959px) {
+    .pp-slidenav-group {
+      top: 20px; } }
   .pp-slidenav-group .uk-h1 {
     display: inline; }
   .pp-slidenav-group a {
