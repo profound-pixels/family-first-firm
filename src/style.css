@@ -9888,6 +9888,9 @@ html {
 .pp-gold-section {
   background-color: #C9A884; }
 
+.pp-dark-section {
+  background-color: #242222; }
+
 @media (min-width: 640px) {
   .pp-card-overlap-container .uk-first-column {
     width: 55%; }
