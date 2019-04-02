@@ -51,7 +51,22 @@ $form-label-font-size:                           $global-small-font-size !defaul
 
 // Component
 // ========================================================================
+.pp-form-container {
+    .uk-input, &.uk-input:focus {
+        color: #fff;
+        border: none;
+        border-bottom: 1px solid $heading-dark-gray;
+        text-transform: uppercase;
+        padding-left: 0;
+        background: none;
+        font-weight: bold;
+    }
 
+    ::placeholder {
+        color: #fff;
+        text-transform: uppercase;
+    }
+}
 
 
 // @mixin hook-form-single-line(){}
@@ -128,4 +143,3 @@ $inverse-form-label-color:                       $inverse-global-emphasis-color 
 
 
 // @mixin hook-inverse-form-radio-checked-focus(){}
-

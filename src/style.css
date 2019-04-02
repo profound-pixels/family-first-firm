@@ -9863,6 +9863,18 @@ html {
   .uk-p-alternate.uk-p-alternate-small {
     font-size: 0.9375rem; }
 
+.pp-form-container .uk-input, .pp-form-container.uk-input:focus {
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid #242222;
+  text-transform: uppercase;
+  padding-left: 0;
+  background: none;
+  font-weight: bold; }
+.pp-form-container ::placeholder {
+  color: #fff;
+  text-transform: uppercase; }
+
 .uk-button {
   font-family: "Proxima N W01 Bold", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
   .uk-button.uk-button-default {
