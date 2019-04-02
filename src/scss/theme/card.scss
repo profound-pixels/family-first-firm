@@ -82,7 +82,7 @@ $card-secondary-hover-box-shadow:               $global-large-box-shadow !defaul
     .pp-img-container {
         overflow: hidden;
 
-        img {
+        > img {
             margin-left: 1.5rem;
         }
     }

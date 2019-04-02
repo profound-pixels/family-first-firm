@@ -9873,6 +9873,9 @@ html {
 .pp-grey-section {
   background-color: #F5F5F5; }
 
+.pp-gold-section {
+  background-color: #C9A884; }
+
 @media (min-width: 640px) {
   .pp-card-overlap-container .uk-first-column {
     width: 55%; }
@@ -9895,7 +9898,7 @@ html {
   background: none; }
   .pp-card-overlay .pp-img-container {
     overflow: hidden; }
-    .pp-card-overlay .pp-img-container img {
+    .pp-card-overlay .pp-img-container > img {
       margin-left: 1.5rem; }
   .pp-card-overlay .uk-overlay {
     background-color: #fff;
