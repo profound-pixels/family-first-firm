@@ -10,7 +10,14 @@
 
 // Style modifiers
 // ========================================================================
+.pp-icon-button {
+    border-radius: 0;
+    border: $global-border-width solid $button-default-border;
 
+    &:hover {
+        border: $global-border-width solid $button-default-hover-border;
+    }
+}
 //
 // Link
 //

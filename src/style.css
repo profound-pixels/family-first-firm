@@ -9863,6 +9863,12 @@ html {
   .uk-p-alternate.uk-p-alternate-small {
     font-size: 0.9375rem; }
 
+.pp-icon-button {
+  border-radius: 0;
+  border: 2px solid #e5e5e5; }
+  .pp-icon-button:hover {
+    border: 2px solid #b2b2b2; }
+
 .pp-form-container .uk-input, .pp-form-container.uk-input:focus {
   color: #fff;
   border: none;
