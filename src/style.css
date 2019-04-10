@@ -10003,6 +10003,16 @@ a.uk-link-text:not(:hover), .uk-link-text a:not(:hover) {
   background-color: white;
   border: none; }
 
+/* ========================================================================
+   Component: Slideshow
+ ========================================================================== */
+.pp-slideshow-with-nav {
+  height: calc(100vh - 80px); }
+
+/* Items
+ ========================================================================== */
+/* Item
+ ========================================================================== */
 .gold-text {
   color: #BB9369; }
 
@@ -10036,6 +10046,13 @@ a.uk-link-text:not(:hover), .uk-link-text a:not(:hover) {
   font-size: 0.875rem;
   line-height: 1.5; }
 
+@media (min-width: 640px) {
+  .fff-text-logo {
+    background: url("./images/featured-images/fff-text-logo.png") no-repeat center center;
+    overflow: hidden;
+    text-indent: -9999px;
+    height: 35px;
+    width: 568px; } }
 /* Color modifiers
  ========================================================================== */
 .uk-text-muted {

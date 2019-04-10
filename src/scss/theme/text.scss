@@ -87,6 +87,16 @@ $text-meta-link-hover-color:                     $global-color !default;
     line-height: $secondary-line-height;
 }
 
+@media (min-width: $breakpoint-small) {
+    .fff-text-logo {
+        background: url('./images/featured-images/fff-text-logo.png') no-repeat center center;
+        overflow: hidden;
+        text-indent: -9999px;
+        height: 35px;
+        width: 568px;
+    }
+}
+
 /* Color modifiers
  ========================================================================== */
 
