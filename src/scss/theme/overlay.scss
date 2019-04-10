@@ -16,6 +16,10 @@
     }
 
     .pp-overlay-align {
+        > div {
+            box-shadow: $global-box-shadow-center;
+        }
+
         .uk-overlay {
             margin-right: 84px;
             text-align: left;

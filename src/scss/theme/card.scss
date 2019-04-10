@@ -43,6 +43,8 @@ $card-secondary-hover-box-shadow:               $global-large-box-shadow !defaul
 
 @media (min-width: $breakpoint-small) {
     .pp-card-overlap-container {
+        background: none;
+        
         .uk-first-column {
             width: 55%;
         }
@@ -104,6 +106,7 @@ $card-secondary-hover-box-shadow:               $global-large-box-shadow !defaul
 
     .uk-card-body {
         background-color: #fff;
+        box-shadow: $global-box-shadow-center;
 
         .pp-card-negative-margin {
             margin-top: -120px;
