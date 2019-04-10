@@ -1,14 +1,13 @@
 @charset "UTF-8";
 /*
-Theme Name: YOOtheme Child
+Theme Name: Family First Firm
 Theme URI: https://yootheme.com
 Template: yootheme
-Author: YOOtheme
-Author URI: https://yootheme.com
-Description: A powerful, flexible and elegant website builder that allows you to create complex pages within minutes and customize every aspect of the theme.
-Version: 1.17.7.1550593580
-Updated: 2019-02-19 16:26:20
-
+Author: Profound Pixels
+Author URI: https://profoundpixels.com
+Description: Official custom design for Family First Firm
+Version: 1.1554930559
+Updated: 2019-04-10 17:09:19
 */
 /* ========================================================================
    Component: Base
@@ -9859,9 +9858,15 @@ html {
 
 .uk-p-alternate {
   font-family: "Century Schoolbook W01", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  line-height: 1.5; }
   .uk-p-alternate.uk-p-alternate-small {
     font-size: 0.9375rem; }
+
+.uk-p-primary-large {
+  font-family: "HelveticaNeueW01-55Roma", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.5rem;
+  line-height: 1.5; }
 
 a.uk-link-text:not(:hover), .uk-link-text a:not(:hover) {
   color: #C9A884;
@@ -9980,10 +9985,19 @@ a.uk-link-text:not(:hover), .uk-link-text a:not(:hover) {
         margin-top: 30px; } }
 .uk-navbar-container:not(.uk-navbar-transparent) {
   background-color: #242222; }
-  .uk-navbar-container:not(.uk-navbar-transparent) .uk-navbar-nav > li > a {
+  .uk-navbar-container:not(.uk-navbar-transparent) .uk-navbar-dropdown {
+    left: 0 !important;
+    width: 100%;
+    background-color: #242222; }
+  .uk-navbar-container:not(.uk-navbar-transparent) .uk-navbar-nav > li > a, .uk-navbar-container:not(.uk-navbar-transparent) .uk-navbar-dropdown-nav > li > a {
     color: #BB9369;
+    font-family: "Century Schoolbook W01", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     padding: 0 15px;
     font-size: 0.9375rem; }
+    @media (max-width: 959px) {
+      .uk-navbar-container:not(.uk-navbar-transparent) .uk-navbar-nav > li > a, .uk-navbar-container:not(.uk-navbar-transparent) .uk-navbar-dropdown-nav > li > a {
+        font-size: 1.3125rem;
+        padding: 15px; } }
 
 .pp-sticky-logo {
   z-index: 1000; }

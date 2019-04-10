@@ -41,10 +41,24 @@ $navbar-dropdown-grid-divider-border:            $navbar-dropdown-nav-divider-bo
 .uk-navbar-container:not(.uk-navbar-transparent) {
     background-color: $heading-dark-gray;
 
-    .uk-navbar-nav > li > a {
-        color: $main-gold;
-        padding: 0 $padding-small-padding;
-        font-size: $tertiary-small-font-size;
+    .uk-navbar-dropdown {
+        left: 0 !important;
+        width: 100%;
+        background-color: $heading-dark-gray;
+    }
+
+    .uk-navbar-nav, .uk-navbar-dropdown-nav {
+        > li > a {
+            color: $main-gold;
+            font-family: $tertiary-font-family;
+            padding: 0 $padding-small-padding;
+            font-size: $tertiary-small-font-size;
+
+            @media (max-width: $breakpoint-small-max) {
+                font-size: $tertiary-medium-font-size;
+                padding: $padding-small-padding;
+            }
+        }
     }
 }
 

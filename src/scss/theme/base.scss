@@ -114,10 +114,17 @@ html {
 .uk-p-alternate {
     font-family: $tertiary-font-family;
     font-size: $tertiary-large-font-size;
+    line-height: $tertiary-line-height;
 
     &.uk-p-alternate-small {
         font-size: $tertiary-small-font-size;
     }
+}
+
+.uk-p-primary-large {
+    font-family: $global-font-family;
+    font-size: $global-large-font-size;
+    line-height: $tertiary-line-height;
 }
 
 // @mixin hook-base-heading(){}
