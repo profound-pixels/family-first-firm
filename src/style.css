@@ -9863,11 +9863,20 @@ html {
   .uk-p-alternate.uk-p-alternate-small {
     font-size: 0.9375rem; }
 
+a.uk-link-text:not(:hover), .uk-link-text a:not(:hover) {
+  color: #C9A884;
+  text-decoration: underline; }
+
 .pp-icon-button {
   border-radius: 0;
   border: 2px solid #e5e5e5; }
   .pp-icon-button:hover {
     border: 2px solid #b2b2b2; }
+
+.pp-social-media-buttons .uk-icon-button {
+  color: #fff;
+  background: none;
+  border: 1px solid #fff; }
 
 .pp-form-container .uk-input, .pp-form-container.uk-input:focus {
   color: #fff;
@@ -10022,6 +10031,10 @@ html {
     background-color: #fff; }
   .pp-underline.pp-underline-dark::after {
     background-color: #242222; }
+
+.pp-copyright-text {
+  font-size: 0.875rem;
+  line-height: 1.5; }
 
 /* Color modifiers
  ========================================================================== */

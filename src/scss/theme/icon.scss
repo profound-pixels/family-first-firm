@@ -18,6 +18,14 @@
         border: $global-border-width solid $button-default-hover-border;
     }
 }
+
+.pp-social-media-buttons {
+    .uk-icon-button {
+        color: #fff;
+        background: none;
+        border: 1px solid #fff;
+    }
+}
 //
 // Link
 //

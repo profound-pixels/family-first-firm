@@ -82,6 +82,11 @@ $text-meta-link-hover-color:                     $global-color !default;
     }
 }
 
+.pp-copyright-text {
+    font-size: $global-small-font-size;
+    line-height: $secondary-line-height;
+}
+
 /* Color modifiers
  ========================================================================== */
 

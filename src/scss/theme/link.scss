@@ -18,6 +18,10 @@
 
 // Text
 // ========================================================================
+a.uk-link-text:not(:hover), .uk-link-text a:not(:hover) {
+    color: $newsletter-gold;
+    text-decoration: underline;
+}
 
 // @mixin hook-link-text(){}
 
