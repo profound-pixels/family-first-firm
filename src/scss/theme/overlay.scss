@@ -44,6 +44,25 @@
     }
 }
 
+@media (max-width: $breakpoint-small-max) {
+    .pp-header-contact {
+        top: 25%;
+        margin-right: 0!important;
+        width: 100%;
+        right: auto;
+
+        > div {
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+
+            .pp-social-media-buttons {
+                margin-top: $padding-padding;
+            }
+        }
+    }
+}
+
 // @mixin hook-overlay(){}
 
 // Icon

@@ -9966,11 +9966,23 @@ a.uk-link-text:not(:hover), .uk-link-text a:not(:hover) {
     margin-right: 84px;
     text-align: left; } }
 
+@media (max-width: 959px) {
+  .pp-header-contact {
+    top: 25%;
+    margin-right: 0 !important;
+    width: 100%;
+    right: auto; }
+    .pp-header-contact > div {
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center; }
+      .pp-header-contact > div .pp-social-media-buttons {
+        margin-top: 30px; } }
 .uk-navbar-container:not(.uk-navbar-transparent) {
   background-color: #242222; }
   .uk-navbar-container:not(.uk-navbar-transparent) .uk-navbar-nav > li > a {
     color: #BB9369;
-    padding: 0 30px;
+    padding: 0 15px;
     font-size: 0.9375rem; }
 
 .pp-sticky-logo {
