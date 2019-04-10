@@ -9903,7 +9903,7 @@ a.uk-link-text:not(:hover), .uk-link-text a:not(:hover) {
       border: 2px solid #343434; }
 
 .pp-grey-section {
-  background-color: #F5F5F5; }
+  background-color: #F5F5F5 !important; }
 
 .pp-gold-section {
   background-color: #C9A884; }
@@ -10026,6 +10026,11 @@ a.uk-link-text:not(:hover), .uk-link-text a:not(:hover) {
       color: white; }
       .pp-slidenav-group a svg polyline {
         stroke-width: 5px; }
+
+.uk-slidenav {
+  visibility: visible !important; }
+  .uk-slidenav.uk-invisible {
+    opacity: .5; }
 
 .uk-dotnav > .uk-active > * {
   border: 5px solid #ADD2DD; }

@@ -45,6 +45,15 @@
     }
 }
 
+.uk-slidenav {
+    visibility: visible !important;
+
+    &.uk-invisible {
+        opacity: .5;
+    }
+}
+
+// @mixin hook-slidenav-hover(){}
 
 // @mixin hook-slidenav-hover(){}
 
