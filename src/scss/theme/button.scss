@@ -58,11 +58,17 @@ $button-text-border:                             $button-text-hover-color;
 
 .uk-button {
     font-family: $secondary-font-family;
+    font-size: 1.125rem;
+    padding: 6px $button-large-padding-horizontal;
+    @extend %default-transition;
 
     &.uk-button-default {
+        
+        
         border: $global-border-width solid $button-default-border;
 
         &:hover {
+            @extend %fast-transition;
             border: $global-border-width solid $button-default-hover-border;
         }
     }
