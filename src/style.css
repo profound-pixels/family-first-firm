@@ -10041,6 +10041,27 @@ a.uk-link-text:not(:hover), .uk-link-text a:not(:hover) {
   border: none; }
 
 /* ========================================================================
+   Component: Slider
+*/
+@media (min-width: 960px) {
+  #newsfeed {
+    overflow: visible; }
+    #newsfeed .uk-active {
+      margin-top: -90px; }
+      #newsfeed .uk-active ~ .uk-active {
+        margin-top: 0; } }
+/* Container
+ ========================================================================== */
+/* Items
+ ========================================================================== */
+/* Item
+ ========================================================================== */
+/*
+ * 1. Let items take content dimensions (0 0 auto)
+ * 2. Create position context
+ * 3. Disable horizontal panning gestures in IE11 and Edge
+ */
+/* ========================================================================
    Component: Slideshow
  ========================================================================== */
 .pp-slideshow-with-nav {
@@ -10121,5 +10142,8 @@ a.uk-link-text:not(:hover), .uk-link-text a:not(:hover) {
 
 .box-shadow-left {
   box-shadow: -40px 0 36px rgba(61, 59, 58, 0.08); }
+
+#newsfeed .uk-active {
+  transition: all 0.5s ease-out; }
 
 /*# sourceMappingURL=style.css.map */

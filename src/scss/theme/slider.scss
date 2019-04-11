@@ -1,0 +1,58 @@
+// Name:            Slider
+// Description:     Component to create horizontal sliders
+//
+// Component:       `uk-slider`
+//
+// Sub-objects:     `uk-slider-container`
+//                  `uk-slider-items`
+//
+// States:          `uk-active`
+//
+// ========================================================================
+
+
+/* ========================================================================
+   Component: Slider
+*/
+
+#newsfeed .uk-active {
+    @extend %default-transition;
+}
+
+@media (min-width: $breakpoint-medium) {
+    #newsfeed {
+        overflow: visible;
+
+        .uk-active {
+            margin-top: -90px;
+
+            ~ .uk-active {
+                margin-top: 0;
+            }
+        }
+    }
+}
+
+
+/* Container
+ ========================================================================== */
+
+/* Items
+ ========================================================================== */
+
+
+/* Item
+ ========================================================================== */
+
+/*
+ * 1. Let items take content dimensions (0 0 auto)
+ * 2. Create position context
+ * 3. Disable horizontal panning gestures in IE11 and Edge
+ */
+
+
+// Hooks
+// ========================================================================
+
+// @mixin hook-slider(){}
+// @mixin hook-slider-misc(){}

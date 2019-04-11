@@ -6,6 +6,19 @@
 
 // Variables
 // ========================================================================
+$transition-default:                            0.5s;
+
+%default-transition {
+    transition: all $transition-default ease-out;
+}
+
+%slow-transition {
+    transition: all $transition-slow-duration ease-out;
+}
+
+%fast-transition {
+    transition: all $transition-duration ease-out;
+}
 
 
 // Miscellaneous
