@@ -9246,8 +9246,9 @@ a.uk-link-text:not(:hover),
 .uk-button {
   font-family: "Proxima N W01 Bold", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.125rem;
-  padding: 6px 40px; }
+  padding: 9px 40px; }
   .uk-button.uk-button-default {
+    min-width: 250px;
     border: 2px solid #D7D7D7; }
     .uk-button.uk-button-default:hover {
       border: 2px solid #343434; }
@@ -9304,6 +9305,15 @@ a.uk-link-text:not(:hover),
     .pp-card-overlay .uk-card-body .pp-card-negative-margin {
       margin-top: -120px;
       background-color: #fff; }
+    .pp-card-overlay .uk-card-body .pp-news-card {
+      padding: 30px; }
+      .pp-card-overlay .uk-card-body .pp-news-card h2 {
+        margin-top: 0; }
+        @media (min-width: 1200px) {
+          .pp-card-overlay .uk-card-body .pp-news-card h2 {
+            min-height: 108px; } }
+      .pp-card-overlay .uk-card-body .pp-news-card .pp-sub-title {
+        margin-top: -3px !important; }
     .pp-card-overlay .uk-card-body .pp-card-partial-width {
       width: 75%; }
 
@@ -9372,12 +9382,13 @@ a.uk-link-text:not(:hover),
   .pp-slidenav-group .uk-active > a {
     background-color: transparent; }
   .pp-slidenav-group a {
-    background-color: #000;
+    background-color: #333;
     width: 36px;
     height: 36px;
     padding: 0;
     border-radius: 50%;
-    position: relative; }
+    position: relative;
+    margin-right: 7px !important; }
     .pp-slidenav-group a svg {
       position: absolute;
       height: 13px;
@@ -9385,7 +9396,11 @@ a.uk-link-text:not(:hover),
       top: 12px;
       color: white; }
       .pp-slidenav-group a svg polyline {
-        stroke-width: 5px; }
+        stroke-width: 2px; }
+    .pp-slidenav-group a.uk-slidenav-next {
+      margin-right: 0; }
+      .pp-slidenav-group a.uk-slidenav-next svg {
+        left: 33% !important; }
 
 .uk-slidenav {
   visibility: visible !important; }

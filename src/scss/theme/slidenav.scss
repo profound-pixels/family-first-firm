@@ -27,7 +27,7 @@
     }
 
     a {
-        background-color: #000;
+        background-color: $global-emphasis-color;
         width: 36px;
         height: 36px;
         padding: 0;
@@ -40,9 +40,17 @@
             left: 31%;
             top: 12px;
             color: white;
-
+            
+            
             polyline {
-                stroke-width: 5px;
+                stroke-width: 2px;
+            }
+        }
+        margin-right: 7px !important;
+        &.uk-slidenav-next{
+            margin-right: 0;
+            svg{
+                left: 33% !important;
             }
         }
     }

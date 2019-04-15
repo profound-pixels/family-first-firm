@@ -112,6 +112,19 @@ $card-secondary-hover-box-shadow:               $global-large-box-shadow !defaul
             margin-top: -120px;
             background-color: #fff;
         }
+        
+        .pp-news-card{
+            padding: 30px;
+            h2{
+                margin-top: 0;
+                @media (min-width: $breakpoint-large){
+                    min-height: 108px;
+                }
+            }
+            .pp-sub-title{
+                margin-top: -3px !important;
+            }
+        }
 
         .pp-card-partial-width {
             width: 75%;
