@@ -127,6 +127,23 @@ html {
     line-height: $tertiary-line-height;
 }
 
+#global-footer{
+    #footer-col-2{
+        color: $footer-gold;
+        @media (min-width: $breakpoint-large){
+            font-size: 1.85rem;
+            line-height: 1.6;
+        }
+    }
+    #footer-col-1{
+        color: $footer-gold;
+        @media (min-width: $breakpoint-large){
+            font-size: 1.65rem;
+            line-height: 1.6;
+        }
+    }
+}
+
 // @mixin hook-base-heading(){}
 
 // @mixin hook-base-h1(){}
