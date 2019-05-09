@@ -115,7 +115,11 @@ html {
     font-family: $tertiary-font-family;
     font-size: $tertiary-large-font-size;
     line-height: $tertiary-line-height;
-
+    
+    @media (max-width: $breakpoint-small){
+        font-size: $tertiary-medium-font-size;
+    }
+    
     &.uk-p-alternate-small {
         font-size: $tertiary-small-font-size;
     }
@@ -162,6 +166,38 @@ html {
 // Horizontal rules
 // ========================================================================
 
+%div-left{
+    border-left: 1px solid $border-light-gray;
+}
+%div-right{
+    border-right: 1px solid $border-light-gray;
+}
+%div-top{
+    border-top: 1px solid $border-light-gray;
+}
+%div-bottom{
+    border-bottom: 1px solid $border-light-gray;
+}
+%div-horizontal{
+    border-right: 1px solid $border-light-gray;
+    border-left: 1px solid $border-light-gray;
+}
+%div-vertical{
+    border-top: 1px solid $border-light-gray;
+    border-bottom: 1px solid $border-light-gray;
+}
+
+
+
+.div-left{ @extend %div-left;}
+.div-right{ @extend %div-right;}
+.div-top{ @extend %div-top;}
+.div-bottom{ @extend %div-bottom;}
+.div-horizontal{ @extend %div-horizontal;}
+.div-vertical{ @extend %div-vertical;}
+
+
+
 // @mixin hook-base-hr(){}
 
 
@@ -188,8 +224,8 @@ html {
 // Inverse
 // ========================================================================
 
-$inverse-base-blockquote-color:                 $inverse-global-emphasis-color;
-$inverse-base-blockquote-footer-color:          $inverse-global-color;
+//$inverse-base-blockquote-color:                 $inverse-global-emphasis-color;
+//$inverse-base-blockquote-footer-color:          $inverse-global-color;
 
 // @mixin hook-inverse-base-link(){}
 // @mixin hook-inverse-base-link-hover(){}

@@ -9206,6 +9206,9 @@ html {
   font-family: "Century Schoolbook W01", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.5rem;
   line-height: 1.5; }
+  @media (max-width: 640px) {
+    .uk-p-alternate {
+      font-size: 1.3125rem; } }
   .uk-p-alternate.uk-p-alternate-small {
     font-size: 0.9375rem; }
 
@@ -9227,6 +9230,26 @@ html {
     #global-footer #footer-col-1 {
       font-size: 1.65rem;
       line-height: 1.6; } }
+
+.div-left {
+  border-left: 1px solid #D7D7D7; }
+
+.div-right {
+  border-right: 1px solid #D7D7D7; }
+
+.div-top {
+  border-top: 1px solid #D7D7D7; }
+
+.div-bottom {
+  border-bottom: 1px solid #D7D7D7; }
+
+.div-horizontal {
+  border-right: 1px solid #D7D7D7;
+  border-left: 1px solid #D7D7D7; }
+
+.div-vertical {
+  border-top: 1px solid #D7D7D7;
+  border-bottom: 1px solid #D7D7D7; }
 
 a.uk-link-text:not(:hover),
 .uk-link-text a:not(:hover) {
@@ -9276,6 +9299,9 @@ a.uk-link-text:not(:hover),
 .pp-dark-section {
   background-color: #242222; }
 
+.section-header .uk-container {
+  max-width: 660px; }
+
 @media (min-width: 640px) {
   .pp-card-overlap-container {
     background: none; }
@@ -9288,6 +9314,14 @@ a.uk-link-text:not(:hover),
 
 .pp-card-overlap-container .pp-card-overlap-right .uk-card-body {
   padding: 70px; }
+  @media (max-width: 640px) {
+    .pp-card-overlap-container .pp-card-overlap-right .uk-card-body {
+      margin: -60px 15px 0;
+      z-index: 6;
+      position: relative;
+      background: white;
+      padding: 30px;
+      text-align: center; } }
 
 @media (max-width: 1199px) and (min-width: 640px) {
   .pp-card-overlap-container {
@@ -9338,17 +9372,28 @@ a.uk-link-text:not(:hover),
   box-shadow: 0 0 36px rgba(61, 59, 58, 0.08); }
 
 .pp-cards-alternating-align .pp-overlay-align .uk-overlay {
-  margin-right: 84px;
+  margin-right: 55px;
   text-align: left; }
 
-@media (min-width: 640px) {
+@media (min-width: 960px) {
   .pp-cards-alternating-align .pp-overlay-align:nth-child(odd) .uk-overlay {
-    margin-left: 84px;
+    margin-left: 55px;
     margin-right: 0;
-    text-align: right; }
+    text-align: right; } }
+  @media (min-width: 960px) and (min-width: 1200px) {
+    .pp-cards-alternating-align .pp-overlay-align:nth-child(odd) .uk-overlay {
+      margin-left: 84px; } }
+  @media (min-width: 960px) and (min-width: 960px) {
+    .pp-cards-alternating-align .pp-overlay-align:nth-child(odd) .uk-overlay p {
+      float: right; } }
+
+@media (min-width: 960px) {
   .pp-cards-alternating-align .pp-overlay-align:nth-child(even) .uk-overlay {
-    margin-right: 84px;
+    margin-right: 55px;
     text-align: left; } }
+  @media (min-width: 960px) and (min-width: 1200px) {
+    .pp-cards-alternating-align .pp-overlay-align:nth-child(even) .uk-overlay {
+      margin-right: 84px; } }
 
 @media (max-width: 959px) {
   .pp-header-contact {
@@ -9533,12 +9578,40 @@ a.uk-link-text:not(:hover),
   box-shadow: 0 0 36px rgba(61, 59, 58, 0.08); }
 
 .box-shadow-left {
-  box-shadow: -40px 0 36px rgba(61, 59, 58, 0.08); }
+  box-shadow: 0 -40px 36px rgba(61, 59, 58, 0.08); }
+  @media (min-width: 1200px) {
+    .box-shadow-left {
+      box-shadow: -40px 0 36px rgba(61, 59, 58, 0.08); } }
 
 .uk-button, #newsfeed .uk-active {
   transition: all 0.5s ease-out; }
 
 .uk-button.uk-button-default:hover, .uk-slidenav {
   transition: all 0.3s ease-out; }
+
+#recognition {
+  background-image: url(images/section-bgs/recognition-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media (min-width: 960px) {
+    #recognition {
+      background-size: contain; } }
+  #recognition #awards {
+    margin-bottom: 120px; }
+    @media (min-width: 640px) {
+      #recognition #awards {
+        margin-bottom: 180px; } }
+
+@media (max-width: 640px) {
+  .card-overlap {
+    padding-top: 0; }
+    .card-overlap .uk-container {
+      padding: 0; } }
+
+.pp-slideshow-with-nav .uk-slideshow-items {
+  height: calc( 100vh - 80px); }
+  @media (min-width: 1200px) {
+    .pp-slideshow-with-nav .uk-slideshow-items {
+      height: 100vh; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -26,7 +26,12 @@
 // Box-shadow left
 // ========================================================================
 .box-shadow-left {
-    box-shadow: $global-box-shadow-left;
+    box-shadow: $global-box-shadow-center-raised;
+    
+    @media (min-width: $breakpoint-large){
+        box-shadow: $global-box-shadow-left;
+    }
+    
 }
 
 // @mixin hook-box-shadow-bottom(){}

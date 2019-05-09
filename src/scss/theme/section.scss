@@ -14,6 +14,11 @@
     background-color: $heading-dark-gray;
 }
 
+.section-header{
+    .uk-container{
+        max-width: 660px;
+    }
+}
 
 // Variables
 // ========================================================================

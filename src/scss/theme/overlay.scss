@@ -21,24 +21,35 @@
         }
 
         .uk-overlay {
-            margin-right: 84px;
+            margin-right: 55px;
             text-align: left;
         }
     }
 
-    @media (min-width: $breakpoint-small) {
+    @media (min-width: $breakpoint-medium) {
         .pp-overlay-align:nth-child(odd) {
             .uk-overlay {
-                margin-left: 84px;
+                margin-left: 55px;
                 margin-right: 0;
                 text-align: right;
+                @media (min-width: $breakpoint-large){
+                    margin-left: 84px;
+                }
+                @media (min-width: $breakpoint-medium){
+                    p{
+                        float: right;
+                    }
+                }
             }
         }
 
         .pp-overlay-align:nth-child(even) {
             .uk-overlay {
-                margin-right: 84px;
+                margin-right: 55px;
                 text-align: left;
+                @media (min-width: $breakpoint-large){
+                    margin-right: 84px;
+                }
             }
         }
     }

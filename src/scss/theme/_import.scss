@@ -1,5 +1,5 @@
 // Base
-@import "custom-fonts.scss";
+@import "custom-fonts.scss"; 
 @import "variables.scss";
 @import "base.scss";
 
@@ -81,6 +81,8 @@
 @import "position.scss";
 @import "transition.scss";
 @import "inverse.scss";
+
+@import "custom-sections.scss";
 
 //Custom Components
 // @import "custom-components/file.scss";

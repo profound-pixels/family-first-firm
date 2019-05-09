@@ -60,6 +60,15 @@ $card-secondary-hover-box-shadow:               $global-large-box-shadow !defaul
 .pp-card-overlap-container .pp-card-overlap-right {
     .uk-card-body {
         padding: $global-large-gutter;
+        
+        @media (max-width: $breakpoint-small){
+            margin: -60px 15px 0;
+            z-index: 6;
+            position: relative;
+            background: white;
+            padding: 30px;
+            text-align: center;
+        }
     }
 }
 
