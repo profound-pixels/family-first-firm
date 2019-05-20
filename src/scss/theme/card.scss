@@ -41,14 +41,20 @@ $card-secondary-hover-box-shadow:               $global-large-box-shadow !defaul
 // Component
 // ========================================================================
 
-@media (min-width: $breakpoint-small) {
-    .pp-card-overlap-container {
+
+.pp-card-overlap-container {
+    @media (max-width: $breakpoint-small){
+        .uk-card-media-left{
+            max-height: 360px;
+        }
+    }
+    @media (min-width: $breakpoint-small) {
         background: none;
         
         .uk-first-column {
             width: 55%;
         }
-
+        
         .pp-card-overlap-right {
             margin-left: -10%;
             z-index: 99;
@@ -112,10 +118,11 @@ $card-secondary-hover-box-shadow:               $global-large-box-shadow !defaul
         color: $heading-dark-gray;
         font-weight: 700;
     }
-
+    
     .uk-card-body {
         background-color: #fff;
         box-shadow: $global-box-shadow-center;
+        transition: all .25s ease-out;
 
         .pp-card-negative-margin {
             margin-top: -120px;
@@ -137,6 +144,14 @@ $card-secondary-hover-box-shadow:               $global-large-box-shadow !defaul
 
         .pp-card-partial-width {
             width: 75%;
+        }
+    }
+    
+    &.uk-card-hover:hover{
+        box-shadow: none !important;
+        background-color: transparent;
+        .uk-card-body{
+           box-shadow: $global-box-shadow-center-hover; 
         }
     }
 }

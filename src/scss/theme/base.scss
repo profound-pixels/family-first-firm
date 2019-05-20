@@ -52,6 +52,18 @@ html {
 // Links
 // ========================================================================
 
+a:hover{
+    text-decoration: none;
+    p, h1,h2,h3,h4,h5,h6{
+        text-decoration: none;
+    }
+}
+a{
+    *{
+        cursor: pointer;
+    }
+} 
+
 // @mixin hook-base-link(){}
 
 // @mixin hook-base-link-hover(){}
@@ -70,11 +82,11 @@ html {
     font-family: $secondary-font-family;
     font-size: $secondary-xxlarge-font-size;
 
-    @media (min-width: $breakpoint-medium) and (max-width: $breakpoint-medium-max) {
+    @media (min-width: $breakpoint-small) and (max-width: $breakpoint-medium-max) {
         font-size: $secondary-xlarge-font-size;
-    }
+    } 
 
-    @media (max-width: $breakpoint-small-max) {
+    @media (max-width: $breakpoint-small) {
         font-size: $secondary-large-font-size;
     }
 }
@@ -111,7 +123,7 @@ html {
     // custom styles for heading classes go here
 }
 
-.uk-p-alternate {
+.uk-p-alternate, article h4 {
     font-family: $tertiary-font-family;
     font-size: $tertiary-large-font-size;
     line-height: $tertiary-line-height;

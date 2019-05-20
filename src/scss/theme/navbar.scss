@@ -55,6 +55,10 @@ $navbar-dropdown-grid-divider-border:            $navbar-dropdown-nav-divider-bo
             font-family: $tertiary-font-family;
             padding: 0 $padding-small-padding;
             font-size: $tertiary-small-font-size;
+            
+            &:hover{
+                color: $light-gold;
+            }
 
             @media (max-width: $breakpoint-small-max) {
                 font-size: $tertiary-large-font-size;
@@ -68,6 +72,12 @@ $navbar-dropdown-grid-divider-border:            $navbar-dropdown-nav-divider-bo
 
 .pp-sticky-logo {
     z-index: 9000;
+    margin-left: 15px;
+    width: 70px;
+    @media (min-width: $breakpoint-medium){
+        margin-left: 140px;
+        width: inherit;
+    }
 }
 
 // @mixin hook-navbar-container(){}

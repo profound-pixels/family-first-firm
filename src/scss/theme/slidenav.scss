@@ -17,10 +17,16 @@
 
     @media (max-width: $breakpoint-small-max) {
         top: 20px;
+        margin-right: 20px !important;
     }
 
     .uk-h1 {
         display: inline;
+        font-size: 3rem !important;
+        @media (max-width: $breakpoint-small-max){
+            vertical-align: super;
+            font-size: 2.25rem !important;
+        }
     }
     .uk-active > a{
         background-color: transparent;

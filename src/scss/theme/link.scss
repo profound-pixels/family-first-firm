@@ -18,11 +18,18 @@
 
 // Text
 // ========================================================================
-a.uk-link-text:not(:hover), .uk-link-text a:not(:hover) {
-    color: $newsletter-gold;
-    text-decoration: underline;
+a.uk-link-text:not(:hover), .uk-link-text a:not(:hover), article a {
+    color: $footer-gold;
+    text-decoration: none;
+    border-bottom: 1px solid $footer-gold;
+    transition: all .25s;
+    cursor: pointer;
 }
-
+article a:hover{
+    color: $main-gold;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
 // @mixin hook-link-text(){}
 
 // @mixin hook-link-text-hover(){}

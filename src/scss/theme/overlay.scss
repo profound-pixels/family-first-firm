@@ -16,8 +16,13 @@
     }
 
     .pp-overlay-align {
-        > div {
+        > div, > a {
             box-shadow: $global-box-shadow-center;
+            transition: all .25s ease-out;
+            &:hover{
+                box-shadow: $global-box-shadow-center-hover;
+                transform: scale(1.015);
+            }
         }
 
         .uk-overlay {
@@ -57,18 +62,29 @@
 
 @media (max-width: $breakpoint-small-max) {
     .pp-header-contact {
+        
         top: 25%;
+        
+        @media (max-width: 640px){
+            top: 20%;
+        }
+        
+        @media (max-width: 405px){
+            top: 15%
+        }
+        
+        
         margin-right: 0!important;
         width: 100%;
         right: auto;
-
+        
         > div {
             flex-wrap: wrap;
             flex-direction: column;
             justify-content: center;
 
             .pp-social-media-buttons {
-                margin-top: $padding-padding;
+                margin-top: 3px;
             }
         }
     }
